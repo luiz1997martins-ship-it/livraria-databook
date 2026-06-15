@@ -1,3 +1,4 @@
+<img width="1584" height="778" alt="preview" src="https://github.com/user-attachments/assets/c5b27372-4e70-4ee9-851f-239921ed5603" />
 # 📚 Livraria DataBook — Dashboard de Vendas
 
 Projeto de estudo desenvolvido para aprender na prática os fundamentos de **Python para análise de dados**, utilizando Pandas, Plotly e Dash para construir um dashboard interativo de vendas de uma livraria fictícia.
@@ -6,12 +7,7 @@ Projeto de estudo desenvolvido para aprender na prática os fundamentos de **Pyt
 
 ## 📊 Preview
 
-> *Prints serão adicionados em breve*
-
-<!-- Quando tirar os prints, substitua o texto acima pelas imagens:
-![Dashboard Overview](assets/preview_dashboard.png)
-![Filtro por Categoria](assets/preview_filtro.png)
--->
+![Dashboard DataBook](preview.gif)
 
 ---
 
@@ -44,7 +40,7 @@ Todos os gráficos atualizam automaticamente ao aplicar qualquer filtro.
 
 ```
 livraria-databook/
-├── app.py                  # Aplicação principal (Dash + Plotly)
+├── databook.py                  # Aplicação principal (Dash + Plotly)
 ├── vendas_databook.csv     # Base de dados fictícia (300 registros)
 ├── requirements.txt        # Dependências do projeto
 └── README.md
@@ -84,7 +80,7 @@ pip install -r requirements.txt
 
 **3. Execute a aplicação**
 ```bash
-python app.py
+python databook.py
 ```
 
 **4. Acesse no navegador**
